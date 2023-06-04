@@ -6,7 +6,7 @@ This repo offers a web-based interface used for our experiment study.
 
 ## To access this interface online
 
-[Click here][https://interactive-dp-analysis.github.io/]
+[Click here](https://interactive-dp-analysis.github.io/)
 
 ## To run this interface locally
 
