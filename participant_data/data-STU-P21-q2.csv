@@ -1,0 +1,106 @@
+,Q9,instr,noisy_count,true_count,plus_error,minus_error,error,nth_remeasure,noisy_count_prev,true_count_prev,minus_error_prev,plus_error_prev,error_prev
+0,Strongly disagree,Instructor 1,9.2,17.0,14.0,4.5,4.7,0,,,,,
+1,Strongly disagree,Instructor 2,24.2,26.0,28.9,19.5,4.7,0,,,,,
+2,Strongly disagree,Instructor 3,110.9,109.0,115.7,106.2,4.7,0,,,,,
+3,Disagree,Instructor 1,12.0,15.0,16.8,7.3,4.7,0,,,,,
+4,Disagree,Instructor 2,19.4,27.0,24.1,14.7,4.7,0,,,,,
+5,Disagree,Instructor 3,88.3,90.0,93.0,83.6,4.7,0,,,,,
+6,Neither agree nor disagree,Instructor 1,30.4,32.0,35.1,25.7,4.7,0,,,,,
+7,Neither agree nor disagree,Instructor 2,67.6,67.0,72.3,62.9,4.7,0,,,,,
+8,Neither agree nor disagree,Instructor 3,183.4,190.0,188.1,178.7,4.7,0,,,,,
+9,Agree,Instructor 1,29.6,34.0,34.3,24.9,4.7,0,,,,,
+10,Agree,Instructor 2,77.6,81.0,82.3,72.8,4.7,0,,,,,
+11,Agree,Instructor 3,143.0,143.0,147.7,138.3,4.7,0,,,,,
+12,Strongly agree,Instructor 1,26.4,24.0,31.1,21.7,4.7,0,,,,,
+13,Strongly agree,Instructor 2,58.4,49.0,63.1,53.7,4.7,0,,,,,
+14,Strongly agree,Instructor 3,98.4,96.0,103.2,93.7,4.7,0,,,,,
+15,Strongly disagree,Instructor 1,16.0,17.0,18.4,13.7,2.4,1,9.2,17.0,4.5,14.0,4.7
+16,Strongly disagree,Instructor 2,26.3,26.0,28.7,24.0,2.4,1,24.2,26.0,19.5,28.9,4.7
+17,Strongly disagree,Instructor 3,110.0,109.0,112.4,107.7,2.4,1,110.9,109.0,106.2,115.7,4.7
+18,Disagree,Instructor 1,12.7,15.0,15.0,10.3,2.4,1,12.0,15.0,7.3,16.8,4.7
+19,Disagree,Instructor 2,22.2,27.0,24.6,19.9,2.4,1,19.4,27.0,14.7,24.1,4.7
+20,Disagree,Instructor 3,88.5,90.0,90.8,86.1,2.4,1,88.3,90.0,83.6,93.0,4.7
+21,Neither agree nor disagree,Instructor 1,31.3,32.0,33.7,29.0,2.4,1,30.4,32.0,25.7,35.1,4.7
+22,Neither agree nor disagree,Instructor 2,65.9,67.0,68.3,63.6,2.4,1,67.6,67.0,62.9,72.3,4.7
+23,Neither agree nor disagree,Instructor 3,188.2,190.0,190.6,185.9,2.4,1,183.4,190.0,178.7,188.1,4.7
+24,Agree,Instructor 1,33.8,34.0,36.2,31.4,2.4,1,29.6,34.0,24.9,34.3,4.7
+25,Agree,Instructor 2,78.2,81.0,80.6,75.9,2.4,1,77.6,81.0,72.8,82.3,4.7
+26,Agree,Instructor 3,143.4,143.0,145.8,141.1,2.4,1,143.0,143.0,138.3,147.7,4.7
+27,Strongly agree,Instructor 1,24.8,24.0,27.1,22.4,2.4,1,26.4,24.0,21.7,31.1,4.7
+28,Strongly agree,Instructor 2,53.4,49.0,55.7,51.0,2.4,1,58.4,49.0,53.7,63.1,4.7
+29,Strongly agree,Instructor 3,98.8,96.0,101.2,96.5,2.4,1,98.4,96.0,93.7,103.2,4.7
+30,Strongly disagree,Instructor 1,17.3,17.0,18.9,15.7,1.6,2,16.0,17.0,13.7,18.4,2.4
+31,Strongly disagree,Instructor 2,27.9,26.0,29.4,26.3,1.6,2,26.3,26.0,24.0,28.7,2.4
+32,Strongly disagree,Instructor 3,110.2,109.0,111.8,108.7,1.6,2,110.0,109.0,107.7,112.4,2.4
+33,Disagree,Instructor 1,12.9,15.0,14.5,11.3,1.6,2,12.7,15.0,10.3,15.0,2.4
+34,Disagree,Instructor 2,25.0,27.0,26.5,23.4,1.6,2,22.2,27.0,19.9,24.6,2.4
+35,Disagree,Instructor 3,87.6,90.0,89.1,86.0,1.6,2,88.5,90.0,86.1,90.8,2.4
+36,Neither agree nor disagree,Instructor 1,30.7,32.0,32.3,29.1,1.6,2,31.3,32.0,29.0,33.7,2.4
+37,Neither agree nor disagree,Instructor 2,66.5,67.0,68.1,64.9,1.6,2,65.9,67.0,63.6,68.3,2.4
+38,Neither agree nor disagree,Instructor 3,190.5,190.0,192.0,188.9,1.6,2,188.2,190.0,185.9,190.6,2.4
+39,Agree,Instructor 1,34.9,34.0,36.5,33.3,1.6,2,33.8,34.0,31.4,36.2,2.4
+40,Agree,Instructor 2,80.2,81.0,81.7,78.6,1.6,2,78.2,81.0,75.9,80.6,2.4
+41,Agree,Instructor 3,143.7,143.0,145.3,142.2,1.6,2,143.4,143.0,141.1,145.8,2.4
+42,Strongly agree,Instructor 1,25.7,24.0,27.2,24.1,1.6,2,24.8,24.0,22.4,27.1,2.4
+43,Strongly agree,Instructor 2,51.9,49.0,53.4,50.3,1.6,2,53.4,49.0,51.0,55.7,2.4
+44,Strongly agree,Instructor 3,98.6,96.0,100.2,97.0,1.6,2,98.8,96.0,96.5,101.2,2.4
+45,Strongly disagree,Instructor 1,18.2,17.0,19.4,17.1,1.2,3,17.3,17.0,15.7,18.9,1.6
+46,Strongly disagree,Instructor 2,27.1,26.0,28.3,26.0,1.2,3,27.9,26.0,26.3,29.4,1.6
+47,Strongly disagree,Instructor 3,109.7,109.0,110.9,108.5,1.2,3,110.2,109.0,108.7,111.8,1.6
+48,Disagree,Instructor 1,13.7,15.0,14.9,12.5,1.2,3,12.9,15.0,11.3,14.5,1.6
+49,Disagree,Instructor 2,26.3,27.0,27.4,25.1,1.2,3,25.0,27.0,23.4,26.5,1.6
+50,Disagree,Instructor 3,89.5,90.0,90.7,88.3,1.2,3,87.6,90.0,86.0,89.1,1.6
+51,Neither agree nor disagree,Instructor 1,32.1,32.0,33.3,30.9,1.2,3,30.7,32.0,29.1,32.3,1.6
+52,Neither agree nor disagree,Instructor 2,65.8,67.0,66.9,64.6,1.2,3,66.5,67.0,64.9,68.1,1.6
+53,Neither agree nor disagree,Instructor 3,190.1,190.0,191.3,188.9,1.2,3,190.5,190.0,188.9,192.0,1.6
+54,Agree,Instructor 1,34.8,34.0,36.0,33.6,1.2,3,34.9,34.0,33.3,36.5,1.6
+55,Agree,Instructor 2,80.4,81.0,81.6,79.2,1.2,3,80.2,81.0,78.6,81.7,1.6
+56,Agree,Instructor 3,143.6,143.0,144.8,142.4,1.2,3,143.7,143.0,142.2,145.3,1.6
+57,Strongly agree,Instructor 1,26.9,24.0,28.1,25.7,1.2,3,25.7,24.0,24.1,27.2,1.6
+58,Strongly agree,Instructor 2,50.5,49.0,51.7,49.4,1.2,3,51.9,49.0,50.3,53.4,1.6
+59,Strongly agree,Instructor 3,97.2,96.0,98.4,96.1,1.2,3,98.6,96.0,97.0,100.2,1.6
+60,Strongly disagree,Instructor 1,18.5,17.0,19.5,17.6,0.9,4,18.2,17.0,17.1,19.4,1.2
+61,Strongly disagree,Instructor 2,25.1,26.0,26.1,24.2,0.9,4,27.1,26.0,26.0,28.3,1.2
+62,Strongly disagree,Instructor 3,109.6,109.0,110.5,108.6,0.9,4,109.7,109.0,108.5,110.9,1.2
+63,Disagree,Instructor 1,14.3,15.0,15.2,13.3,0.9,4,13.7,15.0,12.5,14.9,1.2
+64,Disagree,Instructor 2,26.9,27.0,27.9,26.0,0.9,4,26.3,27.0,25.1,27.4,1.2
+65,Disagree,Instructor 3,88.0,90.0,89.0,87.1,0.9,4,89.5,90.0,88.3,90.7,1.2
+66,Neither agree nor disagree,Instructor 1,32.2,32.0,33.2,31.3,0.9,4,32.1,32.0,30.9,33.3,1.2
+67,Neither agree nor disagree,Instructor 2,66.4,67.0,67.3,65.4,0.9,4,65.8,67.0,64.6,66.9,1.2
+68,Neither agree nor disagree,Instructor 3,189.3,190.0,190.2,188.3,0.9,4,190.1,190.0,188.9,191.3,1.2
+69,Agree,Instructor 1,33.8,34.0,34.8,32.9,0.9,4,34.8,34.0,33.6,36.0,1.2
+70,Agree,Instructor 2,80.5,81.0,81.4,79.5,0.9,4,80.4,81.0,79.2,81.6,1.2
+71,Agree,Instructor 3,145.6,143.0,146.6,144.7,0.9,4,143.6,143.0,142.4,144.8,1.2
+72,Strongly agree,Instructor 1,26.6,24.0,27.6,25.7,0.9,4,26.9,24.0,25.7,28.1,1.2
+73,Strongly agree,Instructor 2,50.2,49.0,51.1,49.2,0.9,4,50.5,49.0,49.4,51.7,1.2
+74,Strongly agree,Instructor 3,98.2,96.0,99.1,97.2,0.9,4,97.2,96.0,96.1,98.4,1.2
+75,Strongly disagree,Instructor 1,18.2,17.0,19.0,17.4,0.8,5,18.5,17.0,17.6,19.5,0.9
+76,Strongly disagree,Instructor 2,25.1,26.0,25.9,24.3,0.8,5,25.1,26.0,24.2,26.1,0.9
+77,Strongly disagree,Instructor 3,109.2,109.0,110.0,108.4,0.8,5,109.6,109.0,108.6,110.5,0.9
+78,Disagree,Instructor 1,14.7,15.0,15.5,13.9,0.8,5,14.3,15.0,13.3,15.2,0.9
+79,Disagree,Instructor 2,26.3,27.0,27.1,25.5,0.8,5,26.9,27.0,26.0,27.9,0.9
+80,Disagree,Instructor 3,88.8,90.0,89.5,88.0,0.8,5,88.0,90.0,87.1,89.0,0.9
+81,Neither agree nor disagree,Instructor 1,32.5,32.0,33.3,31.8,0.8,5,32.2,32.0,31.3,33.2,0.9
+82,Neither agree nor disagree,Instructor 2,66.0,67.0,66.8,65.3,0.8,5,66.4,67.0,65.4,67.3,0.9
+83,Neither agree nor disagree,Instructor 3,189.2,190.0,190.0,188.4,0.8,5,189.3,190.0,188.3,190.2,0.9
+84,Agree,Instructor 1,34.8,34.0,35.5,34.0,0.8,5,33.8,34.0,32.9,34.8,0.9
+85,Agree,Instructor 2,81.6,81.0,82.4,80.8,0.8,5,80.5,81.0,79.5,81.4,0.9
+86,Agree,Instructor 3,145.3,143.0,146.1,144.6,0.8,5,145.6,143.0,144.7,146.6,0.9
+87,Strongly agree,Instructor 1,25.5,24.0,26.3,24.7,0.8,5,26.6,24.0,25.7,27.6,0.9
+88,Strongly agree,Instructor 2,49.8,49.0,50.6,49.0,0.8,5,50.2,49.0,49.2,51.1,0.9
+89,Strongly agree,Instructor 3,97.0,96.0,97.8,96.2,0.8,5,98.2,96.0,97.2,99.1,0.9
+90,Strongly disagree,Instructor 1,18.2,17.0,18.9,17.6,0.7,6,18.2,17.0,17.4,19.0,0.8
+91,Strongly disagree,Instructor 2,25.0,26.0,25.7,24.3,0.7,6,25.1,26.0,24.3,25.9,0.8
+92,Strongly disagree,Instructor 3,109.2,109.0,109.8,108.5,0.7,6,109.2,109.0,108.4,110.0,0.8
+93,Disagree,Instructor 1,13.9,15.0,14.6,13.2,0.7,6,14.7,15.0,13.9,15.5,0.8
+94,Disagree,Instructor 2,25.6,27.0,26.3,24.9,0.7,6,26.3,27.0,25.5,27.1,0.8
+95,Disagree,Instructor 3,88.6,90.0,89.3,87.9,0.7,6,88.8,90.0,88.0,89.5,0.8
+96,Neither agree nor disagree,Instructor 1,31.5,32.0,32.1,30.8,0.7,6,32.5,32.0,31.8,33.3,0.8
+97,Neither agree nor disagree,Instructor 2,66.6,67.0,67.2,65.9,0.7,6,66.0,67.0,65.3,66.8,0.8
+98,Neither agree nor disagree,Instructor 3,189.3,190.0,190.0,188.6,0.7,6,189.2,190.0,188.4,190.0,0.8
+99,Agree,Instructor 1,35.1,34.0,35.8,34.4,0.7,6,34.8,34.0,34.0,35.5,0.8
+100,Agree,Instructor 2,81.3,81.0,82.0,80.7,0.7,6,81.6,81.0,80.8,82.4,0.8
+101,Agree,Instructor 3,144.6,143.0,145.2,143.9,0.7,6,145.3,143.0,144.6,146.1,0.8
+102,Strongly agree,Instructor 1,25.5,24.0,26.2,24.8,0.7,6,25.5,24.0,24.7,26.3,0.8
+103,Strongly agree,Instructor 2,49.4,49.0,50.1,48.8,0.7,6,49.8,49.0,49.0,50.6,0.8
+104,Strongly agree,Instructor 3,96.6,96.0,97.2,95.9,0.7,6,97.0,96.0,96.2,97.8,0.8
