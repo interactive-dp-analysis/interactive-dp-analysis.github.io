@@ -6,17 +6,18 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
 		<link href="./_app/immutable/assets/_layout.794b2d26.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/_page.848cb467.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.31f55574.js">
+		<link href="./_app/immutable/assets/_page.2fc91d0e.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/ScoringRule.d974b59c.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.f3d2cff1.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.fc46900e.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.c0cbfb0d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.865b0308.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.12ece268.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.4b06e747.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.c88d6ce8.js">
 		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.fdf6efbe.js">
 		<link rel="modulepreload" href="./_app/immutable/entry/_layout.js.984db11e.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.0324d395.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/data.2691bf3c.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.d4a2f78e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/ScoringRule.d41890c1.js">
 		<link rel="modulepreload" href="./_app/immutable/entry/_page.js.9c5eea7e.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_page.da46b06b.js"><title>Landing page</title><!-- HEAD_svelte-19ty0cv_START --><meta name="description" content="Landing page"><!-- HEAD_svelte-19ty0cv_END -->
 	</head>
@@ -26,18 +27,103 @@
 
 <div class="app">
 
-<div class="landing svelte-ob4owl"><h1 class="mb-3">Select a participant id</h1>
+<div class="landing svelte-1jhvpxh"><h1 class="mb-3">Select a participant id</h1>
 	<select class="form-select"><option>-</option><option value="[object Object]">P1</option><option value="[object Object]">P2</option><option value="[object Object]">P3</option><option value="[object Object]">P4</option><option value="[object Object]">P5</option><option value="[object Object]">P6</option><option value="[object Object]">P7</option><option value="[object Object]">P8</option><option value="[object Object]">P9</option><option value="[object Object]">P11</option><option value="[object Object]">P12</option><option value="[object Object]">P13</option><option value="[object Object]">P14</option><option value="[object Object]">P15</option><option value="[object Object]">P16</option><option value="[object Object]">P17</option><option value="[object Object]">P18</option><option value="[object Object]">P19</option><option value="[object Object]">P20</option><option value="[object Object]">P21</option></select>
-	<p>This page was not provided to the participants</p>
+	<p>This select option was not provided to the participants.</p>
 
-	<p><a class="btn btn-warning" href="tutorial">Start from Tutorial</a></p>
-</div></div>
+	<p><a class="btn btn-warning" href="tutorial">Start from Tutorial</a></p></div>
+
+
+<article class="svelte-1yg5ujb"><h3>Scoring Rules &amp; Payoffs</h3>
+  <p>The below information about scoring rules and payoffs was provided before
+    the study and was always available during the study.
+  </p>
+  <h4 class="svelte-1yg5ujb">Scoring Rules:</h4>
+  <ul><li><h5>Interval Response</h5>
+      <ul><li>Description: Lower scores are better. This scoring rule rewards
+          tighter intervals that contain the true value, and includes a penalty
+          if the provided interval does not contain the true value.
+        </li>
+        <li>Equation:
+          $${score} = ({upper} - {lower}) + 40 \times ({lower} - {true\ answer}) \times 1[{true\ answer &lt; {lower}}] $$
+          $$+ 40 \times ({true\ answer} - {upper}) \times 1[{true\ answer > {upper}}]$$</li></ul></li>
+    <li><h5>Binary Response</h5>
+      <ul><li>Description: Lower scores are better. Scores on binary responses range
+          from 0 to 2—the minimum score is obtained by assigning 1 to yes_guess
+          if yes is the actual answer and 1 to no_guess if no is the actual
+          answer.
+        </li>
+        <li>Equation:
+          $${score} = ({yes\ guess} - {yes\ actual})^{2} + ({no\ guess} - {no\ actual})^{2}$$
+          <ul><li>${yes\ actual} = 1$ if actual answer is yes and
+              0 otherwise
+            </li>
+            <li>${no\ actual} = 1$ if actual answer is no and 0
+              otherwise
+            </li></ul></li></ul></li></ul>
+  <h4 class="svelte-1yg5ujb">Score → Payoff ($):</h4>
+  <p>Once you have answered all questions in a “block,” i.e., a set of four
+    questions about a dataset, we normalize your scores so they are all on the
+    same scale, and translate the normalized scores into a payoff. This process
+    is how we translate scores → money. your scores are normalized and
+    translated to a payoff.
+  </p>
+  <p>First, we calculate a normalized score for each question:</p>
+  <ul><li><span>${score}_{normalized} = \frac{X - score}{X}$</span>, where <span>$X$</span> is a constant based on the dataset
+      &amp; question (see bottom of doc)
+    </li></ul>
+  <p>Then, we calculate a normalized score for the block:</p>
+  <ul><li><span>${score}_{normalized\ for\ block} = \sum{{score}_{normalized}}$</span>, for each question in the block
+    </li></ul>
+  <p>Finally, we translate the normalized score into a dollar amount by defining a payoff function:</p>
+  <ul><li><span>${payoff} = {min}({max}(2.5 \times {score}_{normalized\ for\ block}, 0), 10)$</span></li></ul>
+
+  <h4 class="svelte-1yg5ujb">$X$ constants by dataset (ACS, DIA, STU) and question:</h4>
+  <h5>ACS</h5>
+  <p>Census survey dataset</p>
+  <table class="svelte-1yg5ujb"><thead><tr><th class="svelte-1yg5ujb">Question</th>
+        <th class="svelte-1yg5ujb">$X$ constant</th></tr></thead>
+    <tbody><tr><td class="svelte-1yg5ujb">(race, age)</td>
+        <td class="svelte-1yg5ujb">4043.29</td></tr>
+      <tr><td class="svelte-1yg5ujb">(race, number of children)</td>
+        <td class="svelte-1yg5ujb">217.69</td></tr>
+      <tr><td class="svelte-1yg5ujb">(age, marital)</td>
+        <td class="svelte-1yg5ujb">56.80</td></tr>
+      <tr><td class="svelte-1yg5ujb">(marital, income)</td>
+        <td class="svelte-1yg5ujb">2.00</td></tr></tbody></table>
+
+  <h5>DIA</h5>
+  <p>Diabetes dataset</p>
+  <table class="svelte-1yg5ujb"><thead><tr><th class="svelte-1yg5ujb">Question</th>
+        <th class="svelte-1yg5ujb">$X$ constant</th></tr></thead>
+    <tbody><tr><td class="svelte-1yg5ujb">(admission type, days in hospital)</td>
+        <td class="svelte-1yg5ujb">113.40</td></tr>
+      <tr><td class="svelte-1yg5ujb">(age, number of medications)</td>
+        <td class="svelte-1yg5ujb">283.30</td></tr>
+      <tr><td class="svelte-1yg5ujb">(race, days in hospital)</td>
+        <td class="svelte-1yg5ujb">186.90</td></tr>
+      <tr><td class="svelte-1yg5ujb">(admission type, age)</td>
+        <td class="svelte-1yg5ujb">2.00</td></tr></tbody></table>
+
+  <h5>STU</h5>
+  <p>Student evaluation dataset</p>
+  <table class="svelte-1yg5ujb"><thead><tr><th class="svelte-1yg5ujb">Question</th>
+        <th class="svelte-1yg5ujb">$X$ constant</th></tr></thead>
+    <tbody><tr><td class="svelte-1yg5ujb">(instructor, instructor&#39;s knowledge)</td>
+        <td class="svelte-1yg5ujb">3703.00</td></tr>
+      <tr><td class="svelte-1yg5ujb">(enjoyed class, instructor)</td>
+        <td class="svelte-1yg5ujb">185.60</td></tr>
+      <tr><td class="svelte-1yg5ujb">(instructor&#39;s knowledge, difficulty)</td>
+        <td class="svelte-1yg5ujb">56.80</td></tr>
+      <tr><td class="svelte-1yg5ujb">(attendance, difficulty)</td>
+        <td class="svelte-1yg5ujb">2.00</td></tr></tbody></table>
+</article></div>
 
 
 			
 			<script>
 				{
-					__sveltekit_15rgp18 = {
+					__sveltekit_v00aak = {
 						env: {},
 						base: new URL(".", location).pathname.slice(0, -1),
 						element: document.currentScript.parentElement
@@ -46,10 +132,10 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.31f55574.js"),
-						import("./_app/immutable/entry/app.4b06e747.js")
+						import("./_app/immutable/entry/start.f3d2cff1.js"),
+						import("./_app/immutable/entry/app.c88d6ce8.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_15rgp18.element, {
+						kit.start(app, __sveltekit_v00aak.element, {
 							node_ids: [0, 2],
 							data,
 							form: null,
