@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="./_app/immutable/assets/_layout.794b2d26.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/_page.9f94cd4c.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.9608dd34.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.fc46900e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.4ad73bb8.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.12ece268.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.6cfbcc4c.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.fdf6efbe.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.js.984db11e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.da46b06b.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/protocol-page.svelte.af9b6fea.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+<div class="app"><article class="mt-5 svelte-mbfo8m"><h3>Study Protocol (60 min.)</h3>
+  <h5>Note</h5>
+  <ul><li class="svelte-mbfo8m"><span class="act svelte-mbfo8m" aria-label="action made">Actions made by the study investigator</span></li>
+    <li class="svelte-mbfo8m"><span class="script svelte-mbfo8m" aria-label="script">Script read to participants</span></li></ul>
+  <h4 class="svelte-mbfo8m">Pre-study preparation</h4>
+  <ul><li class="svelte-mbfo8m"><span class="act svelte-mbfo8m" aria-label="action made">Make sure the scoring rule explanation document is in a tab for the
+        participant.</span></li></ul>
+  <h4 class="svelte-mbfo8m">Introduction (3 min.)</h4>
+  <p class="script svelte-mbfo8m" aria-label="script">Hi, I’m __________ and I’ll be leading the study today.
+  </p>
+  <ul><li class="svelte-mbfo8m"><span class="act svelte-mbfo8m" aria-label="action made">Confirm that the participant filled out the consent form. If they have
+        not, ask if they have any questions before filling it out.</span></li>
+    <li class="svelte-mbfo8m"><span class="act svelte-mbfo8m" aria-label="action made">Change participant’s zoom name to an anonymous participant ID and turn
+        off their video.</span></li>
+    <li class="svelte-mbfo8m"><span class="act svelte-mbfo8m" aria-label="action made">Ask to record.</span></li></ul>
+  <p class="script svelte-mbfo8m" aria-label="script">In this study you will be given a set of visualizations and asked to answer
+    some questions about the data. Your goal is to answer questions about the
+    data as accurately as possible. While you will earn $25 for completing the
+    study alone, you can earn additional payment during the study. There is an
+    upper bound of $30 on the additional payment—please note that it is an upper
+    bound, so you may only receive a portion of that payment depending on your
+    answers.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script">Before we begin, I’ll give you some additional background related to the
+    task and walk you through a tutorial question. You can ask me questions
+    along the way.
+  </p>
+  <h4 class="svelte-mbfo8m">Tutorial (7 min.)</h4>
+  <p class="script svelte-mbfo8m" aria-label="script">Oftentimes data analyses are conducted on sensitive or private data (for
+    example, health data). Today I’ll show you a tool for analyzing such data in
+    a privacy-preserving manner.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script">Specifically, the tool displays privacy-preserving graphs of some data.
+    These graphs are created by injecting statistical noise into the data to
+    protect confidentiality. So, each graph shows the data with some amount of
+    noise added, meaning the data you see will be somewhat inaccurate. We think
+    of each graph as a “measurement” of the true data.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script">In conducting a data analysis, there are often questions you want to answer.
+    How much you care about the accuracy of the answers you get might differ
+    across questions. Therefore, the tool gives you the option of “remeasuring”
+    a graph to get slightly better accuracy. Each time you remeasure, you will
+    increase the accuracy of the graph.
+  </p>
+  <ul><li class="svelte-mbfo8m"><span class="act svelte-mbfo8m" aria-label="action made">Share screen (for the interface).</span></li></ul>
+  <p class="script svelte-mbfo8m" aria-label="script">This is a tutorial question. In the main study you’ll be asked to answer
+    multiple questions, but for now let’s look at just this one. The question is
+    listed at the top and below you’ll find two visualizations that will help
+    you answer the question. This dataset is based on the Census Current
+    Population Survey.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script">The errors represent the root mean squared error (RMSE) of the estimate.
+    These can help you get a sense of how far from the actual value the estimate
+    is.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script">You can select bars on either visualization to filter the data. Clicking a
+    bar on the left means that the visualization on the right will only show
+    data for the clicked bar. You can clear the filter either by clicking that
+    bar again, or by clicking this “clear filter” button.
+    <strong>Note: You can filter for the left AND right.</strong></p>
+  <p class="script svelte-mbfo8m" aria-label="script">I’ll pause here to let you think about how you might answer this question.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script">To improve accuracy of the estimates, you can “remeasure” the visualization.
+    <span class="act svelte-mbfo8m" aria-label="action made">The investigator clicks the remeasure button</span> Notice that there are now gray error bars beneath the solid black error bars.
+    These represent previous errors before remeasurement. Currently they are centered
+    around the new estimate.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script">However, if you want to see the previous errors centered around the previous
+    estimate, you can use this toggle button.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script">You can also change the y-axis scales to get a more “zoomed in” view of the
+    data.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script">You can hover bars to get exact numerical information about estimates and
+    errors.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script">Notice that we specify how to provide an answer. In this question we ask for
+    an interval in which you are 95% confident that the true answer lies.
+  </p>
+  <p class="svelte-mbfo8m"><span class="act svelte-mbfo8m" aria-label="action made">Give participant remote control of screen and allow them to test out the
+      tutorial question.</span></p>
+  <p class="script svelte-mbfo8m" aria-label="script">Do you have any questions?</p>
+  <h4 class="svelte-mbfo8m">Tasks (45 min.)</h4>
+  <p class="script svelte-mbfo8m" aria-label="script">Now we’ll move on to the main portion of this study. There will be three
+    sections. Each section will have four questions, and an upper bound of $10
+    you can earn. Each question is worth the same amount. We’ll spend about
+    10-12 minutes on each section. There isn&#39;t a strict time limit on sections
+    but I&#39;ll be giving you reminders about how much time you should plan to
+    spend before wrapping up so you finish the study on time.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script">Each section will ask you questions about a different dataset. Your task is
+    to answer these questions as accurately as possible using a limited number
+    of remeasures – you’ll get six remeasures per section. You may allocate
+    remeasures across visualizations however you like. For example, you can
+    spend all remeasures on only one question, or you could split them more
+    evenly across questions.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script">There will be two question types that you’ll see, quantitative and binary.
+    Quantitative questions will be like what you saw in the tutorial (“how
+    many…”?) while binary questions will ask for the probability you believe the
+    answer is yes vs no. For quantitative questions make sure your answer is
+    within 0, 1000 because there are only 1000 records in each dataset. And for
+    binary make sure the probabilities sum to 1.
+  </p>
+  <p class="svelte-mbfo8m"><span class="act svelte-mbfo8m" aria-label="action made">Explain scoring rules at a high level &amp; point them to the additional
+      document</span></p>
+  <p class="script svelte-mbfo8m" aria-label="script">Your goal is to decide how to use your remeasures so as to get the best
+    possible score, and therefore increase the additional payment you receive.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script">These tasks are challenging, so we don’t expect anyone to answer everything
+    perfectly. Just do your best. Please also think aloud as you complete the
+    tasks. It’s especially helpful for us to hear your decision-making process.
+    If you are struggling with something, please talk through it. I’ll also keep
+    reminding you to think aloud during the task.
+  </p>
+  <p aria-label="description">Participant completes tasks on three blocks (Census, Diabetes, Student). The
+    order of blocks was counterbalanced across participants. Questions were
+    randomly ordered in each block.
+  </p>
+  <p class="script svelte-mbfo8m" aria-label="script"><span class="act svelte-mbfo8m" aria-label="action made">On the first block</span> I want to
+    remind you that you can look over all the questions first before spending remeasures,
+    if you’d like.
+  </p>
+  <h4 class="svelte-mbfo8m">Exit interview (5 min.)</h4>
+  <ol class="script svelte-mbfo8m" aria-label="script"><li class="svelte-mbfo8m">Describe your strategy for deciding where to allocate remeasures.</li>
+    <li class="svelte-mbfo8m">How well do you think you did on the task?</li>
+    <li class="svelte-mbfo8m">How would you rate your confidence in your answers on a scale from 0 to
+      100, where 100 is the most confident?
+    </li>
+    <li class="svelte-mbfo8m">How much of the $30 bonus do you think you earned?</li>
+    <li class="svelte-mbfo8m">Briefly describe which parts of the interface you found challenging to use
+      (and didn&#39;t seem to help you with the task).
+    </li>
+    <li class="svelte-mbfo8m">Briefly describe which parts of the interface you found easy to use (and
+      helped you with the task).
+    </li>
+    <li class="svelte-mbfo8m">What information would you have liked the interface to have included to
+      better support you with the task?
+    </li>
+    <li class="svelte-mbfo8m">If you were to re-do the task, what would you do differently?</li>
+    <li class="svelte-mbfo8m">How would you describe your level of familiarity with differential
+      privacy?
+    </li>
+    <h6 class="svelte-mbfo8m">Scale</h6>
+    <ol><li class="svelte-mbfo8m">1 – Not at all familiar</li>
+      <li class="svelte-mbfo8m">2 – Slightly familiar</li>
+      <li class="svelte-mbfo8m">3 – Somewhat familiar</li>
+      <li class="svelte-mbfo8m">4 – Moderately familiar</li>
+      <li class="svelte-mbfo8m">5 – Extremely familiar</li></ol>
+    <li class="svelte-mbfo8m">Briefly describe what kind of analysis do you tend to do or have a
+      background in.
+    </li></ol>
+  <p class="svelte-mbfo8m"><span class="act svelte-mbfo8m" aria-label="action made">Provide info on when gift card will be sent.</span></p>
+</article>
+
+<div class="container text-center mb-5"><a class="btn btn-primary mt-5" href="/">Go back to the main page</a></div></div>
+
+
+			
+			<script>
+				{
+					__sveltekit_1voz9x = {
+						env: {},
+						base: new URL(".", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.9608dd34.js"),
+						import("./_app/immutable/entry/app.6cfbcc4c.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_1voz9x.element, {
+							node_ids: [0, 6],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
